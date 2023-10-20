@@ -34,22 +34,24 @@ img {
 .header-flex {
   display: flex;
   align-items: center;
- }
+}
 
 .navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
-  }
+}  
 
 .list-nav {
   display: flex;
   align-items: center;
   gap: 40px;
   margin-right: 332px;
-  padding: 24px 0;
-}
+  }
 
+.link-nav {
+  padding: 24px 0;
+
+}
 .logo
 {
   font-family: "Raleway", sans-serif;
