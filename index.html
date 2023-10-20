@@ -11,37 +11,35 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <div class="container">
       <header class="header"> 
-        <a class="logo" href="./index.html">Web<span class="logo-web">Studio</span></a>             
-        <nav class="navigation">
-          
-          <ul class="list-nav">
-            <li class="link">
-              <a class="link-nav" href="./index.html">Studio</a>
-            </li>
-            <li>
-              <a class="link-nav" href="">Portfolio</a>
-            </li>
-            <li>
-              <a class="link-nav" href="" >Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="link-address">
-            <li>
-              <a class="list-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="list-address" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
-            </li>
-          </ul>
-        </address>
+        <div class="container header-flex">
+          <a class="logo" href="./index.html">Web<span class="logo-web">Studio</span></a>             
+          <nav class="navigation">          
+            <ul class="list-nav">
+              <li class="link">
+                <a class="link-nav" href="./index.html">Studio</a>
+              </li>
+              <li>
+                <a class="link-nav" href="">Portfolio</a>
+              </li>
+              <li>
+                <a class="link-nav" href="" >Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address">
+            <ul class="link-address">
+              <li>
+                <a class="list-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="list-address" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </header>
-    </div>
-    <main>
-
+      <main>
       <section class="hero">
       <div class="container">
         <div class="hero-size">
@@ -53,7 +51,7 @@
 
       <section class="features">
         <div class="container">
-        <!-- <h2 class="features-hidden">0</h2>  -->
+        <h2 class="features-hidden">0</h2>  
         <ul class="features-ul">
           <li class="features-list">
             <h3 class="features-title">Strategy</h3>
@@ -93,23 +91,31 @@
         <ul class="team-flex">
           <li class="team-member">
             <img src="./images/Mark.jpg" width="264" alt="Mark" />
-            <h3 class="team-small-title">Mark Guerrero</h3>
-            <p class="team-paragraf">Product Designer</p>
+            <div class="team-cont">
+              <h3 class="team-small-title">Mark Guerrero</h3>
+              <p class="team-paragraf">Product Designer</p>
+            </div>
           </li>
           <li class="team-member">
             <img src="./images/Tom.jpg" width="264" alt="Tom" />
+            <div class="team-cont">
             <h3 class="team-small-title">Tom Ford</h3>
             <p class="team-paragraf">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-member">
             <img src="./images/Camila.jpg" width="264" alt="Camila" />
+            <div class="team-cont">
             <h3 class="team-small-title">Camila Garcia</h3>
             <p class="team-paragraf">Marketing</p>
+            </div>
           </li>
           <li class="team-member">
             <img src="./images/Daniel.jpg" width="264" alt="Daniel" />
+            <div class="team-cont">
             <h3 class="team-small-title">Daniel Wilson</h3>
             <p class="team-paragraf">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -120,33 +126,45 @@
           <ul class="port-flex">
             <li class="portfolio-list">
               <img src="./images/banking-app.jpg" width="360" alt="banking-app" /> 
+              <div class="port-cont">
               <h3 class="portfolio-small-title">Banking App</h3>
               <p class="portfolio-text">App</p>
+             </div>
             </li>
             <li class="portfolio-list">
-              <img src="./images/cashless.jpg" width="360" alt="cashless-payment" /> 
+              <img src="./images/cashless.jpg" width="360" alt="cashless-payment" />
+              <div class="port-cont">
               <h3 class="portfolio-small-title">Cashless Payment</h3>
               <p class="portfolio-text">Marketing</p>
+             </div> 
             </li>
             <li class="portfolio-list">
-              <img src="./images/meditation.jpg" width="360" alt="Meditation-app" /> 
+              <img src="./images/meditation.jpg" width="360" alt="Meditation-app" />
+              <div class="port-cont">
               <h3 class="portfolio-small-title">Meditation App</h3>
               <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img src="./images/taxi.jpg" width="360" alt="taxi-service" /> 
+              <div class="port-cont">
               <h3 class="portfolio-small-title">Taxi Service</h3>
               <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list">
               <img src="./images/illustration.jpg" width="360" alt="Screen Illustrations" /> 
+              <div class="port-cont">
               <h3 class="portfolio-small-title">Screen Illustrations</h3>
               <p class="portfolio-text">Design</p>
+            </div>
             </li>
             <li class="portfolio-list">
               <img src="./images/online-courses.jpg" width="360" alt="online-courses" /> 
+              <div class="port-cont">
               <h3 class="portfolio-small-title">Online Courses</h3>
               <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>        
