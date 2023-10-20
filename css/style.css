@@ -23,9 +23,8 @@ img {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -35,13 +34,12 @@ img {
 .header-flex {
   display: flex;
   align-items: center;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
  }
 
 .navigation {
   display: flex;
   align-items: center;
+  gap: 40px;
   }
 
 .list-nav {
@@ -63,6 +61,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
   }
 
 .logo-web {
@@ -98,7 +97,7 @@ color: #404BBF;
 .link-address {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .list-address {
@@ -163,12 +162,12 @@ background: #404BBF;
 }
 
 .visually-hidden {
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-  color:#FFFFFF;
 }
 
 .features {
