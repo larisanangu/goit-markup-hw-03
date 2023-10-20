@@ -45,8 +45,9 @@ img {
 .list-nav {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .logo
